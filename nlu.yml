@@ -1,0 +1,228 @@
+version: "3.0"
+nlu:
+- intent: Market
+  examples: |
+    - Market
+    - Market
+
+- intent: Life_Style
+  examples: |
+    - Life_Style
+    - Life_Style
+# ======================================================
+
+- intent: Mobile_Laptop_Accessories
+  examples: |
+    - Mobile_Laptop_Accessories
+    - Mobile_Laptop_Accessories
+# =======================================================
+
+
+- intent: Smart Phone
+  examples: |
+    - [64gb] mobile
+    - [32gb] mobile
+
+- intent: brand_name
+  examples: |
+    - [samsung]{"entity": "brand_name"}
+    - [Nokia]{"entity": "brand_name"}
+
+- intent: battery
+  examples: |
+    - [5000mah]{"entity": "battery"}
+    - [4000mah]{"entity": "battery"}
+
+- intent: Internal Memory
+  examples: |
+    - [128 GB]{"entity": "Internal Memory"}
+    - [256 GB]{"entity": "Internal Memory"}
+
+- intent: RAM
+  examples: |
+    - [4 GB]{"entity": "RAM"}
+    - [6 GB]{"entity": "RAM"}
+
+- intent: camera
+  examples: |
+    - [48+12+12 MP]{"entity": "camera"}
+    - [12+12 MP]{"entity": "camera"}
+
+- intent: Adapter
+  examples: |
+    - Adapter
+    - Adapter
+
+- intent: Adapter_info
+  examples: |
+    - [samsung]{"entity": "camera"}
+
+- intent: Earphones
+  examples: |
+    - Earphones
+    - Earphones
+    
+- intent: Earphones_info
+  examples: |
+    - [samsung]{"entity": "Earphone_brand"}
+    - [Nokia]{"entity": "Earphone_brand"}
+
+- intent: Mobile_Holder
+  examples: |
+    - MobileHolder
+    - MobileHolder
+
+- intent: Mobile_Holder_info
+  examples: |
+    - [samsung]{"entity": "Mobile_Holder_brand"}
+    - [Nokia]{"entity": "Mobile_Holder_brand"}  
+
+- intent: CAR_CHARGERS
+  examples: |
+    - CAR_CHARGERS
+    - CAR_CHARGERS
+
+- intent: CAR_CHARGERS_info
+  examples: |
+    - [samsung]{"entity": "CAR_CHARGERS_brand"}
+    - [Nokia]{"entity": "CAR_CHARGERS_brand"} 
+
+- intent: Power_Bank
+  examples: |
+    - Power_Bank
+    - Power_Bank
+
+- intent: Power_Bank_info
+  examples: |
+    - [samsung]{"entity": "Power_Bank_brand"}
+    - [Nokia]{"entity": "Power_Bank_brand"}
+
+# =================================
+
+- intent: Bulk
+  examples: |
+    - Bulk
+    - Bulk
+
+- intent: HOT AND COLD BEVERAGES
+  examples: |
+    - HOT AND COLD BEVERAGES
+    - HOT AND COLD BEVERAGES
+
+- intent: BABY AND KIDS
+  examples: |
+    - BABY AND KIDS
+    - BABY AND KIDS
+
+- intent: NUTS_DATES_DRIED FRUITS_CHILLERS AND DAIRY
+  examples: |
+    - NUTS_DATES_DRIED FRUITS_CHILLERS AND DAIRY
+    - NUTS_DATES_DRIED FRUITS_CHILLERS AND DAIRY
+
+- intent: HOME CLEANING_HEALTH AND BEAUTY
+  examples: |
+    - HOME CLEANING_HEALTH AND BEAUTY
+    - HOME CLEANING_HEALTH AND BEAUTY
+
+- intent: TASTY_FOODS
+  examples: |
+    - TASTY_FOODS
+    - TASTY_FOODS
+
+- intent: BOTTLED CANNED AND POUCH
+  examples: |
+    - BOTTLED CANNED AND POUCH
+    - BOTTLED CANNED AND POUCH
+
+# =====================================================
+
+- intent: HOT BEVERAGES
+  examples: |
+    - HOT BEVERAGES
+    - HOT BEVERAGES
+
+- intent: COLD BEVERAGES
+  examples: |
+    - COLD BEVERAGES
+    - COLD BEVERAGES
+
+# =====================================================
+
+- intent: NUTS_DATES_DRIED FRUITS
+  examples: |
+    - NUTS_DATES_DRIED FRUITS
+    - NUTS_DATES_DRIED FRUITS
+
+- intent: CHILLERS AND DAIRY
+  examples: |
+    - CHILLERS AND DAIRY
+    - CHILLERS AND DAIRY
+
+# =====================================================
+
+- intent: HOME BAKING AND COOKING
+  examples: |
+    - HOME BAKING AND COOKING
+    - HOME BAKING AND COOKING
+
+- intent: CONFECTIONERY
+  examples: |
+    - CONFECTIONERY
+    - CONFECTIONERY
+
+- intent: PASTA NOODLES AND RICE
+  examples: |
+    - PASTA NOODLES AND RICE
+    - PASTA NOODLES AND RICE
+
+- intent: FROZEN FOOD
+  examples: |
+    - FROZEN FOOD
+    - FROZEN FOOD
+# =================================================
+
+- intent: HOME CLEANING
+  examples: |
+    - HOME CLEANING
+    - HOME CLEANING
+
+- intent: HEALTH AND BEAUTY
+  examples: |
+    - HEALTH AND BEAUTY
+    - HHEALTH AND BEAUTY
+
+# ===============================================
+
+- intent: BOTTLED CANNED AND POUCH
+  examples: |
+    - BOTTLED CANNED AND POUCH
+    - BOTTLED CANNED AND POUCH
+
+# ===============================================
+
+- intent: start_again
+  examples: |
+    - start_again
+    - start_again
+
+# ===============================================
+
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: stop please
+  examples: |
+    - stop
+    - stop
